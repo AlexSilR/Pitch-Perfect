@@ -41,14 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA15DBEB1EE6099600C6DD3C /* SupportingFIles */ = {
+		FA15DBEB1EE6099600C6DD3C /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
 				FAD3D5991E48A4A600ABB67F /* AppDelegate.swift */,
 				FAD3D5A01E48A4A600ABB67F /* Assets.xcassets */,
 				FAD3D5A51E48A4A600ABB67F /* Info.plist */,
 			);
-			name = SupportingFIles;
+			name = SupportingFiles;
 			path = SupportingFIles;
 			sourceTree = "<group>";
 		};
@@ -71,7 +71,7 @@
 		FAD3D5981E48A4A600ABB67F /* Pitch Perfect */ = {
 			isa = PBXGroup;
 			children = (
-				FA15DBEB1EE6099600C6DD3C /* SupportingFIles */,
+				FA15DBEB1EE6099600C6DD3C /* SupportingFiles */,
 				FAD3D5A21E48A4A600ABB67F /* LaunchScreen.storyboard */,
 				FAD3D59D1E48A4A600ABB67F /* Main.storyboard */,
 				FA7A55351EDF9F1000666ECB /* PlaySoundsViewController+Audio.swift */,
@@ -114,8 +114,7 @@
 				TargetAttributes = {
 					FAD3D5951E48A4A600ABB67F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ASADA4Q7KR;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -284,10 +283,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ASADA4Q7KR;
 				INFOPLIST_FILE = "Pitch Perfect/SupportingFIles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.alexsilr.swift.mvc.pitchperfect.Pitch-Perfect";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.alexsilr.swift.pitchperfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -297,10 +295,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ASADA4Q7KR;
 				INFOPLIST_FILE = "Pitch Perfect/SupportingFIles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.alexsilr.swift.mvc.pitchperfect.Pitch-Perfect";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.alexsilr.swift.pitchperfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
