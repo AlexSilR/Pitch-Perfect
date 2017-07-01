@@ -49,7 +49,7 @@
 				FAD3D5A51E48A4A600ABB67F /* Info.plist */,
 			);
 			name = SupportingFiles;
-			path = SupportingFIles;
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		FAD3D58D1E48A4A600ABB67F = {
@@ -283,7 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Pitch Perfect/SupportingFIles/Info.plist";
+				INFOPLIST_FILE = "Pitch Perfect/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -294,7 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Pitch Perfect/SupportingFIles/Info.plist";
+				INFOPLIST_FILE = "Pitch Perfect/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
